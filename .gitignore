@@ -1,2 +1,4 @@
 .env
 plan.md
+src/__pycache__/
+notebooks/data/
