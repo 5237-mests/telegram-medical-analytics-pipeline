@@ -1,0 +1,116 @@
+[0m19:27:15.227441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CEE4C4C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CF05DBB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CF05DBC50>]}
+
+
+============================== 19:27:15.626005 | bf0be931-c9ed-47f3-9c4a-8d6f7bed3123 ==============================
+[0m19:27:15.626005 [info ] [MainThread]: Running with dbt=1.10.4
+[0m19:27:15.653220 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mesfin\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init medigram_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m19:27:16.383947 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Mesfin\.dbt
+[0m19:27:16.447785 [info ] [MainThread]: A project called medigram_dbt already exists here.
+[0m19:27:16.455263 [debug] [MainThread]: Command `dbt init` succeeded at 19:27:16.454653 after 2.05 seconds
+[0m19:27:16.460461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CF05A1E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CF065AC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012CF04F9150>]}
+[0m19:27:16.462497 [debug] [MainThread]: Flushing usage events
+[0m19:27:18.804872 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:28:46.804721 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002404F264C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002404FD14050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024051383C50>]}
+
+
+============================== 19:28:46.822585 | a8d593af-b134-4b1c-bd2a-8ac2ee24fecb ==============================
+[0m19:28:46.822585 [info ] [MainThread]: Running with dbt=1.10.4
+[0m19:28:46.824534 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Mesfin\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init medigram_dbt', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:28:46.886295 [debug] [MainThread]: Starter project path: C:\ME\KAIM\week7\week7\Lib\site-packages\dbt\include\starter_project
+[0m19:28:46.981101 [info ] [MainThread]: 
+Your new dbt project "medigram_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:28:46.987351 [info ] [MainThread]: Setting up your profile.
+[0m19:32:54.302592 [info ] [MainThread]: Profile medigram_dbt written to C:\Users\Mesfin\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:32:54.307442 [debug] [MainThread]: Command `dbt init` succeeded at 19:32:54.306932 after 247.85 seconds
+[0m19:32:54.309591 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000240514C4770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000240514928D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002405129A580>]}
+[0m19:32:54.311295 [debug] [MainThread]: Flushing usage events
+[0m19:32:55.948419 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:46:13.738476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9B870C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9D987C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9D9879D0>]}
+
+
+============================== 19:46:13.844228 | 86da2645-099f-4db7-831d-03134db1d577 ==============================
+[0m19:46:13.844228 [info ] [MainThread]: Running with dbt=1.10.4
+[0m19:46:13.887880 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Mesfin\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:46:14.448024 [info ] [MainThread]: dbt version: 1.10.4
+[0m19:46:14.449386 [info ] [MainThread]: python version: 3.13.2
+[0m19:46:14.450674 [info ] [MainThread]: python path: C:\ME\KAIM\week7\week7\Scripts\python.exe
+[0m19:46:14.451686 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m19:46:15.010452 [info ] [MainThread]: Using profiles dir at C:\Users\Mesfin\.dbt
+[0m19:46:15.011804 [info ] [MainThread]: Using profiles.yml file at C:\Users\Mesfin\.dbt\profiles.yml
+[0m19:46:15.013118 [info ] [MainThread]: Using dbt_project.yml file at C:\ME\KAIM\week7\telegram-medical-analytics-pipeline\dbt\dbt_project.yml
+[0m19:46:15.034682 [info ] [MainThread]: adapter type: postgres
+[0m19:46:15.036441 [info ] [MainThread]: adapter version: 1.9.0
+[0m19:46:15.037599 [info ] [MainThread]: Configuration:
+[0m19:46:15.038631 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:46:15.040865 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:46:15.045052 [info ] [MainThread]: Required dependencies:
+[0m19:46:15.046590 [debug] [MainThread]: Executing "git --help"
+[0m19:46:15.170308 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:46:15.171451 [debug] [MainThread]: STDERR: "b''"
+[0m19:46:15.172173 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:46:15.173418 [info ] [MainThread]: Connection:
+[0m19:46:15.174976 [info ] [MainThread]:   host: localhost
+[0m19:46:15.176661 [info ] [MainThread]:   port: 5432
+[0m19:46:15.178325 [info ] [MainThread]:   user: mesfin
+[0m19:46:15.179816 [info ] [MainThread]:   database: medigram_db
+[0m19:46:15.181147 [info ] [MainThread]:   schema: raw
+[0m19:46:15.182099 [info ] [MainThread]:   connect_timeout: 10
+[0m19:46:15.182995 [info ] [MainThread]:   role: None
+[0m19:46:15.184073 [info ] [MainThread]:   search_path: None
+[0m19:46:15.184939 [info ] [MainThread]:   keepalives_idle: 0
+[0m19:46:15.186057 [info ] [MainThread]:   sslmode: None
+[0m19:46:15.188171 [info ] [MainThread]:   sslcert: None
+[0m19:46:15.189898 [info ] [MainThread]:   sslkey: None
+[0m19:46:15.192285 [info ] [MainThread]:   sslrootcert: None
+[0m19:46:15.194211 [info ] [MainThread]:   application_name: dbt
+[0m19:46:15.195963 [info ] [MainThread]:   retries: 1
+[0m19:46:15.199968 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m19:46:16.406238 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m19:46:25.634744 [debug] [MainThread]: Using postgres connection "debug"
+[0m19:46:25.636702 [debug] [MainThread]: On debug: select 1 as id
+[0m19:46:25.638127 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:46:26.055513 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "mesfin" is not permitted to log in
+
+[0m19:46:26.250007 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m19:46:26.251628 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m19:46:26.253222 [debug] [MainThread]: On debug: No close available on handle
+[0m19:46:26.254915 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m19:46:26.271734 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:46:26.314455 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\ME\KAIM\week7\telegram-medical-analytics-pipeline\dbt\dbt_project.yml> not found
+
+[0m19:46:26.350056 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  role "mesfin" is not permitted to log in
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:46:26.419535 [debug] [MainThread]: Command `dbt debug` failed at 19:46:26.419054 after 13.27 seconds
+[0m19:46:26.435911 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:46:26.437576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9DBA29E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9DBB1FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001ED9D9E16A0>]}
+[0m19:46:26.439348 [debug] [MainThread]: Flushing usage events
+[0m19:46:28.295445 [debug] [MainThread]: An error was encountered while trying to flush usage events
