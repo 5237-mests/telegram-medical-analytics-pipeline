@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    description: "Raw schema from Postgres with scraped Telegram data"
+    tables:
+      - name: telegram_messages
+        description: "Raw messages scraped from Telegram channels"
