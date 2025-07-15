@@ -7,3 +7,5 @@ sources:
     tables:
       - name: telegram_messages
         description: "Raw messages scraped from Telegram channels"
+      - name: image_detections
+        description: "YOLO image detections results"
