@@ -3,3 +3,14 @@ plan.md
 src/__pycache__/
 notebooks/data/
 notebooks/*.pt
+api/__pycache__/
+api/routers/__pycache__/
+api/models/__pycache__/
+dagster_pipelines/__pycache__/
+dagster_pipelines/jobs/__pycache__/
+dagster_pipelines/ops/__pycache__/
+session.session
+*.pyc
+yolov8n.pt
+scraper.log
+.tmp_dagster_*
