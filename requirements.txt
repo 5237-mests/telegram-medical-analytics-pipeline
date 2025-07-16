@@ -1,11 +1,19 @@
-telethon
-psycopg2-binary
-python-dotenv
-pandas
-ultralytics
-fastapi
-uvicorn
-sqlalchemy
-dbt-postgres
-dagster
-dagster-webserver
+# Core
+fastapi==0.116.0
+uvicorn==0.35.0
+python-dotenv==1.1.1
+psycopg2-binary==2.9.10
+
+# Optional async/ORM (if needed)
+SQLAlchemy==2.0.41
+
+# DBT
+dbt-core==1.10.4
+dbt-postgres==1.9.0
+
+# Dagster
+dagster==1.11.2
+dagster-webserver==1.11.2     
+
+# Optional: for rich terminal logs or dev tools
+rich==14.0.0

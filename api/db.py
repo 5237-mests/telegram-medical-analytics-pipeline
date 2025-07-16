@@ -12,3 +12,12 @@ def get_connection():
         host=os.getenv("POSTGRES_HOST"),
         port=os.getenv("POSTGRES_PORT")
     )
+
+# def get_connection():
+#     return psycopg2.connect(
+#         dbname=os.environ("POSTGRES_DB"),
+#         user=os.environ("POSTGRES_USER"),
+#         password=os.environ("POSTGRES_PASSWORD"),
+#         host=os.environ("POSTGRES_HOST"),
+#         port=os.environ("POSTGRES_PORT")
+#     )

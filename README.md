@@ -111,6 +111,69 @@ uvicorn api.main:app --reload
 
 ---
 
+## 🐳 Docker Setup
+
+This project supports containerized development using **Docker** and **Docker Compose**. Follow these steps to run the full pipeline including FastAPI, PostgreSQL, and Dagster.
+
+### 📦 Prerequisites
+
+- [Docker](https://www.docker.com/products/docker-desktop/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+---
+
+### 🚀 Running the Project
+
+1. **Clone the repository** (if not already):
+
+   ```bash
+   git clone https://github.com/your-username/telegram-medical-analytics-pipeline.git
+   cd telegram-medical-analytics-pipeline
+   ```
+
+2. **Set up environment variables**
+   Create a `.env` file in the root directory with the following variables:
+
+   ```env
+   POSTGRES_USER=your_username
+   POSTGRES_PASSWORD=your_password
+   POSTGRES_DB=medigram
+   POSTGRES_HOST=postgres
+   POSTGRES_PORT=5432
+
+   TELEGRAM_API_ID=your_api_id
+   TELEGRAM_API_HASH=your_api_hash
+   ```
+
+3. **Build and run all containers**
+
+   ```bash
+   docker-compose build
+   docker-compose up
+   ```
+
+---
+
+### 🧪 Available Services
+
+| Service    | URL                                                      | Description                      |
+| ---------- | -------------------------------------------------------- | -------------------------------- |
+| FastAPI    | [http://localhost:8000/docs](http://localhost:8000/docs) | API with analytics endpoints     |
+| PostgreSQL | localhost:5432                                           | Database for storing messages    |
+| Dagster UI | [http://localhost:3000](http://localhost:3000)           | Orchestrate and monitor pipeline |
+
+---
+
+### 🛑 Stopping the Containers
+
+To shut everything down:
+
+```bash
+docker-compose down
+```
+
+---
+
 ## 🧠 Author
 
 **Mesfin Mulugeta Wetere**
